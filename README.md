@@ -9,6 +9,6 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 Here we read in the .csv file and removed unnecessary columns, EIN & NAME.  These columns were removed because they would not be necessary for helping the model in its predictions.  All other data was featured.
 
 ### Compiling, Traning, and Evaluating the Model - 
-For my optimization attempts, I originally used two nodes in my Neural Network.  However, I increased that number to 3 and found that my accuracy dropped from 72.8% to 72.5%, so for my third attempt I went back to using two nodes.  In my third attempt, 
+For my optimization attempts, I originally used two nodes in my Neural Network and the 'relu' activation tool.  This generated an accuracy of 73.19%.  On my second attempt I did all the same except this time, I used three nodes in my Neural Network.  This increased accuracy to 73.39%.  So I stuck with the three nodes for the rest of my optimazations.  In my third attempt, 
 
 ## Summary:
